@@ -4,7 +4,7 @@
 
 * Required Vagrant: https://developer.hashicorp.com/vagrant/install
 
-* PBasic vagrant commands:  
+* Basic vagrant commands:  
   * vagrant init - initializing a new project in the current directory  
   * vagrant up - creating resources based on the Vagrantfile file  
   * vagrant destroy -f - deleting all resources  
