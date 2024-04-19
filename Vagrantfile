@@ -11,7 +11,6 @@ Vagrant.configure("2") do |config|
         v.memory = 3064
         v.cpus = 4
       config.vm.provision "shell", inline: <<-SHELL
- #         sudo yum update -y
           curl -sfL https://get.k3s.io | sh -
           while [ ! -f /etc/rancher/k3s/k3s.yaml ]; do sleep 1; done; sudo chmod 644 /etc/rancher/k3s/k3s.yaml;
       SHELL
