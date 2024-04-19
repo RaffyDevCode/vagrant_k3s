@@ -4,7 +4,7 @@ Utworzenie VM przy pomocy providera Vagrant (VirtualBox)
 Wymagany Vagrant: https://developer.hashicorp.com/vagrant/install
 
 ###
-Podstawowe polecenia dot. vagrant:
+Podstawowe polecenia dot. vagrant:</ br>
 vagrant init - inicjalizacja nowego projektu w bieżącym katalogu
 vagrant up - utworzenie zasobów na podstawie pliku Vagrantfile
 vagrant destroy -f - usuwanie wszystkich zasobów
