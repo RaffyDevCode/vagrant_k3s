@@ -8,7 +8,7 @@
   * `vagrant init` - initializing a new project in the current directory  
   * `vagrant up` - creating resources based on the Vagrantfile file  
   * `vagrant destroy -f` - deleting all resources  
-  * `vagrant ssh hostanme` - logging in via SSH to the created resource/VM
+  * `vagrant ssh hostname` - logging in via SSH to the created resource/VM
 
 >[!NOTE]
 Currently image based Vagrantfile: generic/alpine319
