@@ -1,14 +1,14 @@
 # vagrant_k3s
 
-# Utworzenie VM przy pomocy providera Vagrant (VirtualBox)
+# Creating a VM (using the Vagrant provider) with Kubernetes installed - k3s.
 
-* Wymagany Vagrant: https://developer.hashicorp.com/vagrant/install
+* Required Vagrant: https://developer.hashicorp.com/vagrant/install
 
-* Podstawowe polecenia dot. vagrant:  
-  * vagrant init - inicjalizacja nowego projektu w bieżącym katalogu  
-  * vagrant up - utworzenie zasobów na podstawie pliku Vagrantfile  
-  * vagrant destroy -f - usuwanie wszystkich zasobów  
-  * vagrant ssh hostanme - logowanie po ssh do utworzonego zasobu/VM  
+* PBasic vagrant commands:  
+  * vagrant init - initializing a new project in the current directory  
+  * vagrant up - creating resources based on the Vagrantfile file  
+  * vagrant destroy -f - deleting all resources  
+  * vagrant ssh hostanme - logging in via SSH to the created resource/VM
 
 >[!NOTE]
-Aktualnie Vagrantfile oparty na obrazie: generic/alpine319
+Currently image based Vagrantfile: generic/alpine319
