@@ -1,5 +1,3 @@
-#Instalacja VM z k3s
-
 Vagrant.configure("2") do |config|
     config.vm.define "vagrantk3s" do |vagrantk3s|
         vagrantk3s.vm.box_download_insecure = true
@@ -10,10 +8,10 @@ Vagrant.configure("2") do |config|
         v.name = "vagrantk3s"
         v.memory = 3064
         v.cpus = 4
+    end
       config.vm.provision "shell", inline: <<-SHELL
           curl -sfL https://get.k3s.io | sh -
           while [ ! -f /etc/rancher/k3s/k3s.yaml ]; do sleep 1; done; sudo chmod 644 /etc/rancher/k3s/k3s.yaml;
       SHELL
-      end
-    end
+end
 end
