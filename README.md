@@ -16,7 +16,7 @@ Currently image based Vagrantfile: generic/alpine319
 # Instruction
 
 1. Install Vagrant: `https://developer.hashicorp.com/vagrant/install`
-2. Clone repo: `gh repo clone RaffyDevCode/vagrant_k3s`
+2. Clone repo: `git clone RaffyDevCode/vagrant_k3s`
 3. Issue a command in e.g. PowerShell: `vagrant up`
 4. Logging in to the new machine: `vagrant ssh vagrantk3s`
 5. Verification of a running cluster: `kubectl get all -n kube-system`
